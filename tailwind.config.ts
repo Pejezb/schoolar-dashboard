@@ -13,6 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        pejeSky: "#C3EBFA",
+        pejeSky_Light: "#EDF9FD",
+        pejePurple: "#CFCEFF",
+        pejePurpleLight: "#F1F0FF",
+        pejeYellow: "#FAE27C",
+        pejeYellowLight: "#FEFCE8",
+    }    
     },
   },
   plugins: [],

@@ -1,4 +1,5 @@
-"use client";
+'use client'
+
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
@@ -39,7 +40,7 @@ const Header = () => {
           <a href="#estudiantes" className="hover:text-yellow-300">ESTUDIANTES</a>
           <a href="#profesores" className="hover:text-yellow-300">PROFESORES</a>
           <a href="#recursos" className="hover:text-yellow-300">RECURSOS</a>
-          <a href="#administradores" className="hover:text-yellow-300">ADMINISTRADORES</a>
+          <a href="#conocenos" className="hover:text-yellow-300">NOSOTROS</a>
           <a href="#contacto" className="hover:text-yellow-300">CONTACTO</a>
           <button onClick={goToLogin} className="hover:text-yellow-300">INICIAR SESIÓN</button>
           <button onClick={goToLogin} className="bg-yellow-300 text-green-700 px-3 py-1 rounded-md font-semibold text-sm hover:bg-yellow-400 transition duration-300">

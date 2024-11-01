@@ -7,7 +7,7 @@ const SignIn = () => {
   const router = useRouter();
 
   const handleLogin = () => {
-    router.push("/dashboard/admin"); // Redirige a la página de administración
+    router.push("/dashboard/admin");
   };
 
   return (
@@ -25,11 +25,11 @@ const SignIn = () => {
         <input type="password" placeholder="Contraseña" className="w-full px-4 py-2 mb-3 bg-gray-200 rounded-lg" />
         <a href="#" className="text-xs mb-4">¿Olvidaste tu contraseña?</a>
         
-        {/* Botón de ingreso */}
+        {/* ACCESS BUTTON */}
         <button 
           type="button" 
           className="px-6 py-2 bg-green-700 text-white rounded-lg hover:bg-green-800"
-          onClick={handleLogin} // Llama a la función de redirección
+          onClick={handleLogin} 
         >
           Ingresar
         </button>

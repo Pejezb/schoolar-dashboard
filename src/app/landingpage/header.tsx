@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   const goToLogin = () => {
-    router.push('/sign-in');
+    router.push('http://localhost:3001');
   };
 
   return (
@@ -42,9 +42,8 @@ const Header = () => {
           <a href="#recursos" className="hover:text-yellow-300">RECURSOS</a>
           <a href="#conocenos" className="hover:text-yellow-300">NOSOTROS</a>
           <a href="#contacto" className="hover:text-yellow-300">CONTACTO</a>
-          <button onClick={goToLogin} className="hover:text-yellow-300">INICIAR SESIÓN</button>
           <button onClick={goToLogin} className="bg-yellow-300 text-green-700 px-3 py-1 rounded-md font-semibold text-sm hover:bg-yellow-400 transition duration-300">
-            REGISTRO
+            PLATAFORMA
           </button>
         </nav>
       </div>
@@ -65,8 +64,7 @@ const Header = () => {
           <a href="#recursos" className="hover:text-yellow-300" onClick={toggleMenu}>RECURSOS</a>
           <a href="#administradores" className="hover:text-yellow-300" onClick={toggleMenu}>ADMINISTRADORES</a>
           <a href="#contacto" className="hover:text-yellow-300" onClick={toggleMenu}>CONTACTO</a>
-          <button onClick={goToLogin} className="hover:text-yellow-300">INICIAR SESIÓN</button>
-          <button onClick={goToLogin} className="bg-yellow-300 text-green-700 px-3 py-1 rounded-md font-semibold text-sm hover:bg-yellow-400 transition duration-300">
+          <button className="bg-yellow-300 text-green-700 px-3 py-1 rounded-md font-semibold text-sm hover:bg-yellow-400 transition duration-300">
             REGISTRO
           </button>
         </nav>

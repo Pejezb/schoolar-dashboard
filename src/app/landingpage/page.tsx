@@ -14,10 +14,6 @@ import NosotrosSection from '@/app/landingpage/sections/nosotros';
 const Homepage = () => {
   const router = useRouter();
 
-  const goToLogin = () => {
-    router.push('/sign-in');
-  };
-
   return (
     <div className="bg-green-500 min-h-screen flex flex-col text-white">
       <Header />
@@ -40,7 +36,7 @@ const Homepage = () => {
             <p className="text-base md:text-lg mt-6 max-w-md drop-shadow-md">
               ¡Bienvenidos a Educación Digital!, la plataforma educativa creada especialmente para estudiantes y profesores.
             </p>
-            <button onClick={goToLogin} className="mt-10 bg-yellow-300 text-green-700 font-bold px-4 py-2 md:px-6 md:py-2 rounded-full hover:bg-yellow-400 transition duration-300 drop-shadow-md">
+            <button className="mt-10 bg-yellow-300 text-green-700 font-bold px-4 py-2 md:px-6 md:py-2 rounded-full hover:bg-yellow-400 transition duration-300 drop-shadow-md">
               DESCÚBRELO
             </button>
           </div>
